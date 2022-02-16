@@ -146,7 +146,8 @@ seized by customs should get in touch.</p>
   <tbody>
     <tr>
       <th scope="row">10:00-12:00</th>
-      <td>Reverse engineering exploits from patch commits (David Jorm)</td>
+      <td>
+<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="2 hour workshop" data-content="By examining patch commits for some historical CVEs in open source projects, we will revrse engineer the precise nature of vulnerability and construct working exploits. Code will be in Java.">Reverse engineering exploits from patch commits (David Jorm)</button></td>
       <td></td>
     </tr>
     <tr>
@@ -193,6 +194,10 @@ seized by customs should get in touch.</p>
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
-
+    <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
   </body>
 </html>
